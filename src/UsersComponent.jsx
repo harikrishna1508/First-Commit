@@ -22,10 +22,10 @@ const Users = () => {
 
   return (
     <>
-      {users.length > 0 && users.map((user) => (
-        <Card key={user.id} user={user} />
+      {users.length > 0 && users.map((user) => ( 
+        <Card key={user.id} user={user} /> 
       ))}
-      {users.length === 0 && <p>No users available!</p>}
+      {users.length === 0 && <p>No users available!</p>} 
     </>
   )
 }
